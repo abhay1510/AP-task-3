@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* -------- IMAGE CAROUSEL -------- */
+.carousel-container {
+  text-align: center;
+}
+
+.carousel-container img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.carousel-buttons button {
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* -------- QUIZ -------- */
+#quizBox div {
+  margin-bottom: 15px;
+}
+
+#submitQuiz {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* -------- API -------- */
+.api-section button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* -------- RESPONSIVE DESIGN -------- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .carousel-container img {
+    width: 100%;
+  }
+
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Web Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Complete Web Project</h1>
+    </header>
+
+    <!-- IMAGE CAROUSEL -->
+    <section class="carousel-section">
+        <h2>Image Carousel</h2>
+        <div class="carousel-container">
+            <img id="carouselImage" src="img1.jpg" alt="Carousel Image">
+            <div class="carousel-buttons">
+                <button onclick="prevImage()">Previous</button>
+                <button onclick="nextImage()">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIZ SECTION -->
+    <section class="quiz-section">
+        <h2>Quick Quiz</h2>
+        
+        <div id="quizBox"></div>
+        <button id="submitQuiz">Submit Quiz</button>
+
+        <h3 id="quizResult"></h3>
+    </section>
+
+    <!-- API FETCH SECTION -->
+    <section class="api-section">
+        <h2>Random Joke Generator</h2>
+        <p id="jokeText">Click the button to load a joke...</p>
+        <button onclick="getJoke()">Get Joke</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
